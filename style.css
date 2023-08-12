@@ -1,9 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(156, 156, 213);
+  
 }
-
+.table-wrap{
+  border: 3px solid black;
+}
 * {
   margin: 0;
   padding: 0;
@@ -33,4 +35,14 @@ form {
 
 .reader button {
   margin-bottom: 0.25rem;
+}
+.form-input{
+  border: 3px solid black;
+  border-radius: 2px;
+}
+.form-input::placeholder{
+  padding: 0.5rem;
+}
+.form-h2{
+  width: 260px;
 }

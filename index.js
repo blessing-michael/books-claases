@@ -18,14 +18,14 @@ class BookObj {
 
     this.books.forEach((book, index) => {
       const showRow = `
-      <div>
-        <p>${book.title} by ${book.author}</p>
-        <div >
+      <tr>
+        <td>${book.title} by ${book.author}</td>
+        <td  class="text-end">
           <button class="button" onclick="bookManager.deleteBook(${index})">
             Delete
           </button>
-        </div>
-      </div>
+        </td>
+      </tr>
     `;
       bookBody.insertAdjacentHTML('beforeend', showRow);
     });

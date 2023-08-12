@@ -17,32 +17,35 @@
     <main>
       <section id="list" class="h-40">
         <div class="container">
-        <h1 class="text-center mb-7">Awesome Books</h1>
-        <div class="table-container">
-          <div id="table"></div>
+        <h1 class="text-center mb-7">All Awesome Books</h1>
+        <div class="table-wrap">
+
+            <table class="table border-3 table-hover table-striped">
+            <tbody id="table"></tbody>
+          </table>
         </div>
         </div>
       </section>
 
       <section  class="h-40">
         <div
-          class="book-store"
+          class="book-store d-flex flex-column align-items-center"
         >
           <div class="form-container">
             <form id="form">
-              <h1 class="text-center">Add a new book</h1>
-              <div class="one">
+              <h2 class="form-h2">Add a new book</h2>
+              <div class="one mb-3 mt-4">
                 <input
                   type="text"
-                  class="form-control border-4 border-grey"
+                  class="form-input"
                   id="title"
                   placeholder="title"
                 />
               </div>
-              <div class="two">
+              <div class="two mb-3 mt-4">
                 <input
                   type="text"
-                  class="form border-4 border-grey"
+                  class="form-input"
                   id="author"
                   placeholder="author"
                 />
@@ -50,7 +53,7 @@
               <button
                 type="submit"
                 id="add-button"
-                class="btn btn-outline-grey border-5 mb-5 px-5 d-block ms-auto"
+                class="btn btn-outline-dark border-3 mb-3 px-3 d-block ms-auto"
               >
                 Add
               </button>
