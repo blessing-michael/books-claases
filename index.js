@@ -1,4 +1,3 @@
-
 class BookObj {
   constructor() {
     this.books = this.getBooksFromLocalStorage();
@@ -67,12 +66,6 @@ class BookObj {
 }
 
 const bookManager = new BookObj();
-
-const totalBooksCount = () => bookManager.books.length;
-
-
-
-
 
 bookManager.handleFormSubmit();
 bookManager.handleAddButtonClick();
