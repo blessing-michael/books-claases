@@ -21,7 +21,7 @@ class BookObj {
       const showRow = `
       <div>
         <p>${book.title} by ${book.author}</p>
-        <div class="text-end">
+        <div >
           <button class="button" onclick="bookManager.deleteBook(${index})">
             Delete
           </button>
