@@ -50,19 +50,19 @@ body {
 .form-h2 {
   width: 260px;
 }
-#list-allbooks{
+
+#list-allbooks {
   display: none;
   margin-top: 5rem;
 }
-#contact-box{
+
+#contact-box {
   display: none;
 }
 
 /* Header styling */
 
-nav{
-  border: 5px solid black;
-  width: 90%;
+nav {
   font-family: sans-serif;
   width: 90%;
   margin: 1rem auto;
@@ -71,13 +71,14 @@ nav{
   align-items: center;
   border: solid 3px black;
   padding: 1rem;
-
 }
+
 header {
   width: auto;
   height: 100px;
   padding: 1rem;
 }
+
 nav ul {
   display: flex;
   width: 30%;
@@ -85,36 +86,36 @@ nav ul {
   list-style: none;
   font-size: 1.6rem;
 }
-.line{
-  
-  background-color:  black;
+
+.line {
+  background-color: black;
   width: 2px;
   height: 30px;
   margin-right: 10px;
   margin-left: 10px;
 }
+
 nav li:active {
   color: lightblue;
 }
-.contact-container{
+
+.contact-container {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 5rem;
-  
 }
-.contact-info{
+
+.contact-info {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-
 }
-footer{
-  border: 5px solid black;
+
+footer {
   width: 90%;
   font-family: sans-serif;
-  width: 90%;
   margin: 1rem auto;
   display: flex;
   justify-content: space-between;
@@ -122,9 +123,8 @@ footer{
   border: solid 3px black;
   padding: 1rem;
   margin-top: 7rem;
- 
- 
 }
+
 #dates {
   width: 85%;
   display: flex;
