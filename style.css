@@ -13,7 +13,7 @@ body {
   box-sizing: border-box;
 }
 
-form {
+#form {
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
@@ -49,4 +49,86 @@ form {
 
 .form-h2 {
   width: 260px;
+}
+
+#list-allbooks {
+  display: none;
+  margin-top: 5rem;
+}
+
+#contact-box {
+  display: none;
+}
+
+/* Header styling */
+
+nav {
+  font-family: sans-serif;
+  width: 90%;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 3px black;
+  padding: 1rem;
+}
+
+header {
+  width: auto;
+  height: 100px;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  list-style: none;
+  font-size: 1.6rem;
+}
+
+.line {
+  background-color: black;
+  width: 2px;
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+nav li:active {
+  color: lightblue;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer {
+  width: 90%;
+  font-family: sans-serif;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 3px black;
+  padding: 1rem;
+  margin-top: 7rem;
+}
+
+#dates {
+  width: 85%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+  margin-top: 2rem;
 }
